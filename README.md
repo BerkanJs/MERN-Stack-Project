@@ -25,6 +25,10 @@ Diğer Araçlar: Axios (API çağrıları için), Chakra UI (modern UI bileşenl
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 🛍️ Product Management App
 
 This project is a product management application developed using React (with Chakra UI), Zustand, React Router, Node.js and MongoDB. Users can add, update, delete products and list existing products.
