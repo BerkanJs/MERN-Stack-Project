@@ -15,7 +15,7 @@ COPY backend/ .
 
 # 3. Final image
 FROM node:18
-WORKDIR /app
+WORKDIR /app/backend
 COPY --from=backend-build /app/backend ./
 COPY --from=frontend-build /app/frontend/dist ./public
 EXPOSE 5000
