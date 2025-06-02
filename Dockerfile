@@ -19,4 +19,4 @@ WORKDIR /app/backend
 COPY --from=backend-build /app/backend ./
 COPY --from=frontend-build /app/frontend/dist ./public
 EXPOSE 5000
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
